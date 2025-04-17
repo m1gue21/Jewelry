@@ -41,7 +41,7 @@ export default function ProductPrice({
           <p>
             <span className="text-ui-fg-subtle">Original: </span>
             <span
-              className="line-through"
+              className=""
               data-testid="original-product-price"
               data-value={selectedPrice.original_price_number}
             >

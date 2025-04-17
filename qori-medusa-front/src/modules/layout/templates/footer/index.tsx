@@ -11,6 +11,11 @@ export default async function Footer() {
   })
   const productCategories = await listCategories()
 
+  
+  console.log("🚀 Footer cargado")
+  console.log("🔍 Colecciones obtenidas:", collections)
+  console.log("🔍 Categorías obtenidas:", productCategories)
+
   return (
     <footer className="border-t border-ui-border-base w-full">
       <div className="content-container flex flex-col w-full">

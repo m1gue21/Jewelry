@@ -1,0 +1,9 @@
+{
+    "features": {
+      "search": {
+        "enabled": true,
+        "provider": "meilisearch"
+      }
+    }
+  }
+  

@@ -1197,6 +1197,9 @@ async function Footer() {
         fields: "*products"
     });
     const productCategories = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$data$2f$categories$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["listCategories"])();
+    console.log("🚀 Footer cargado");
+    console.log("🔍 Colecciones obtenidas:", collections);
+    console.log("🔍 Categorías obtenidas:", productCategories);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
         className: "border-t border-ui-border-base w-full",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1212,12 +1215,12 @@ async function Footer() {
                                 children: "Qori Joyeria"
                             }, void 0, false, {
                                 fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                lineNumber: 19,
+                                lineNumber: 24,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                            lineNumber: 18,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1231,7 +1234,7 @@ async function Footer() {
                                             children: "Categories"
                                         }, void 0, false, {
                                             fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                            lineNumber: 29,
+                                            lineNumber: 34,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1256,7 +1259,7 @@ async function Footer() {
                                                             children: c.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                                            lineNumber: 53,
+                                                            lineNumber: 58,
                                                             columnNumber: 25
                                                         }, this),
                                                         children && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1269,35 +1272,35 @@ async function Footer() {
                                                                         children: child.name
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                                                        lineNumber: 68,
+                                                                        lineNumber: 73,
                                                                         columnNumber: 35
                                                                     }, this)
                                                                 }, child.id, false, {
                                                                     fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                                                    lineNumber: 67,
+                                                                    lineNumber: 72,
                                                                     columnNumber: 33
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                                            lineNumber: 64,
+                                                            lineNumber: 69,
                                                             columnNumber: 27
                                                         }, this)
                                                     ]
                                                 }, c.id, true, {
                                                     fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                                    lineNumber: 49,
+                                                    lineNumber: 54,
                                                     columnNumber: 23
                                                 }, this);
                                             })
                                         }, void 0, false, {
                                             fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                            lineNumber: 32,
+                                            lineNumber: 37,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                    lineNumber: 28,
+                                    lineNumber: 33,
                                     columnNumber: 15
                                 }, this),
                                 collections && collections.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1308,7 +1311,7 @@ async function Footer() {
                                             children: "Collections"
                                         }, void 0, false, {
                                             fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                            lineNumber: 87,
+                                            lineNumber: 92,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1322,23 +1325,23 @@ async function Footer() {
                                                         children: c.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                                        lineNumber: 100,
+                                                        lineNumber: 105,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, c.id, false, {
                                                     fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 104,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                            lineNumber: 90,
+                                            lineNumber: 95,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                    lineNumber: 86,
+                                    lineNumber: 91,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1349,7 +1352,7 @@ async function Footer() {
                                             children: "Medusa"
                                         }, void 0, false, {
                                             fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                            lineNumber: 112,
+                                            lineNumber: 117,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1364,12 +1367,12 @@ async function Footer() {
                                                         children: "GitHub"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                                        lineNumber: 115,
+                                                        lineNumber: 120,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                                    lineNumber: 114,
+                                                    lineNumber: 119,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1381,12 +1384,12 @@ async function Footer() {
                                                         children: "Documentation"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                                        lineNumber: 125,
+                                                        lineNumber: 130,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 129,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1398,36 +1401,36 @@ async function Footer() {
                                                         children: "Source code"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                                        lineNumber: 135,
+                                                        lineNumber: 140,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                                    lineNumber: 134,
+                                                    lineNumber: 139,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                            lineNumber: 113,
+                                            lineNumber: 118,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                                    lineNumber: 111,
+                                    lineNumber: 116,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                            lineNumber: 26,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                    lineNumber: 17,
+                    lineNumber: 22,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1442,29 +1445,29 @@ async function Footer() {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                            lineNumber: 149,
+                            lineNumber: 154,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$modules$2f$layout$2f$components$2f$medusa$2d$cta$2f$index$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                            lineNumber: 152,
+                            lineNumber: 157,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-                    lineNumber: 148,
+                    lineNumber: 153,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-            lineNumber: 16,
+            lineNumber: 21,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/modules/layout/templates/footer/index.tsx",
-        lineNumber: 15,
+        lineNumber: 20,
         columnNumber: 5
     }, this);
 }
@@ -1641,7 +1644,7 @@ async function Nav() {
                         className: "flex items-center gap-x-6 h-full flex-1 basis-0 justify-end",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "hidden small:flex items-center gap-x-6 h-full",
+                                className: "small:flex items-center gap-x-6 h-full",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$modules$2f$common$2f$components$2f$localized$2d$client$2d$link$2f$index$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                     className: "hover:text-ui-fg-base",
                                     href: "/account",

@@ -3150,10 +3150,6 @@ img, video {
   text-decoration-line: underline;
 }
 
-.line-through {
-  text-decoration-line: line-through;
-}
-
 .\!placeholder-ui-fg-disabled::-moz-placeholder {
   color: var(--fg-disabled) !important;
 }
